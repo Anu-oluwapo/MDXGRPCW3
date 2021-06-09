@@ -6,7 +6,7 @@
 
             <br><br><br>
 
-            <aside>
+            <!-- <aside>
                 <p><b>Sort by</b></p>
                 <input type="radio" id="subject" v-model="sort.sortingMethod" value="subject">
                 <label for="subject">Subject</label><br>
@@ -29,8 +29,9 @@
                 <label for="descending">Descending</label><br>
 
 
-            </aside>
+            </aside> -->
 
+            <div class="container">
             <div class="row">
 
                 <div v-for="lessons in lesson" :key="lessons.id" class="col-md-5 col-lg-4 mb-5">
@@ -68,6 +69,7 @@
                     </div>
                 </div>
 
+            </div>
             </div>
         </div>
 </template>
