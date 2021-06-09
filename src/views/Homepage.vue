@@ -34,7 +34,7 @@
             <div class="container">
             <div class="row">
 
-                <div v-for="lessons in lesson" :key="lessons.id" class="col-md-5 col-lg-4 mb-5">
+                <div v-for="lessons in lesson" :key="lessons.id" class="d-block mx-auto col-md-5 col-lg-4 mb-5">
                     <div class="card " style="width: 18rem;border-bottom-width: 5px; border-bottom-color:#0188cc;">
                         <img height="200" v-bind:src="lessons.image">
                         <div class="card-body">
